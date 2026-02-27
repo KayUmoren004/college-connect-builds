@@ -52,6 +52,31 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+
+  --animate-accordion-open: accordion-open 200ms ease-out;
+  --animate-accordion-close: accordion-close 200ms ease-out;
+
+  @keyframes accordion-open {
+    from {
+      height: 0;
+      opacity: 0;
+    }
+    to {
+      height: var(--accordion-panel-height);
+      opacity: 1;
+    }
+  }
+
+  @keyframes accordion-close {
+    from {
+      height: var(--accordion-panel-height);
+      opacity: 1;
+    }
+    to {
+      height: 0;
+      opacity: 0;
+    }
+  }
 }
 
 @layer base {

@@ -3,6 +3,7 @@
 import { motion } from "motion/react";
 import { siteConfig } from "@/config/site";
 import { Container } from "./container";
+import { IPhoneMockup } from "./iphone-mockup";
 
 export function Hero() {
   return (
@@ -64,8 +65,7 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
             className="relative hidden lg:flex lg:justify-center"
           >
-            {/* iPhone mockup will be added in Task 8 */}
-            <div className="h-[580px] w-[280px] rounded-[3rem] border-2 border-border/50 bg-card/50" />
+            <IPhoneMockup />
           </motion.div>
         </div>
       </Container>
