@@ -25,14 +25,6 @@ export function Footer() {
             <a href="#faq" className="hover:text-foreground transition-colors">
               FAQ
             </a>
-            <a
-              href={siteConfig.creator.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-foreground transition-colors"
-            >
-              Creator
-            </a>
           </div>
         </div>
 
