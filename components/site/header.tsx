@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
@@ -16,7 +17,14 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 w-full border-b border-border/50 bg-background/80 backdrop-blur-xl">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-6 lg:px-8">
-        <a href="/" className="font-display text-lg font-bold tracking-tight">
+        <a href="/" className="flex items-center gap-2 font-display text-lg font-bold tracking-tight">
+          <Image
+            src="/icon.png"
+            alt="College Connect logo"
+            width={28}
+            height={28}
+            className="rounded-md"
+          />
           {siteConfig.name}
         </a>
 

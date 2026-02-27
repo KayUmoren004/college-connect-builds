@@ -34,10 +34,11 @@ export const metadata: Metadata = {
     "ride share",
     "campus events",
   ],
-  authors: [{ name: "Godson Umoren" }],
+  authors: [{ name: "SWEN-732 Group 1" }],
   openGraph: {
     title: "College Connect",
-    description: "Find study partners, event companions, and ride shares at RIT.",
+    description:
+      "Find study partners, event companions, and ride shares at RIT.",
     type: "website",
     locale: "en_US",
     siteName: "College Connect",
@@ -46,7 +47,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "College Connect",
-    description: "Find study partners, event companions, and ride shares at RIT.",
+    description:
+      "Find study partners, event companions, and ride shares at RIT.",
   },
   robots: { index: true, follow: true },
 };

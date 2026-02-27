@@ -90,7 +90,7 @@ export const siteConfig = {
   ],
 
   creator: {
-    name: "Godson Umoren",
-    link: "https://godsonumoren.com",
+    name: "SWEN-732 Group 1",
+    link: "",
   },
 };
