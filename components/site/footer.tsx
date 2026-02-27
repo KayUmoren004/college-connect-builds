@@ -16,7 +16,10 @@ export function Footer() {
           </div>
 
           <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <a href="#features" className="hover:text-foreground transition-colors">
+            <a
+              href="#features"
+              className="hover:text-foreground transition-colors"
+            >
               Features
             </a>
             <a href="#faq" className="hover:text-foreground transition-colors">
@@ -34,15 +37,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 text-center text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} {siteConfig.name}. Made by{" "}
-          <a
-            href={siteConfig.creator.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline hover:text-foreground"
-          >
-            {siteConfig.creator.name}
-          </a>
+          &copy; {new Date().getFullYear()} {siteConfig.name}. Made by Group 1
         </div>
       </Container>
     </footer>
