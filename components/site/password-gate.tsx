@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 
-const CORRECT_PASSWORD = "0110110";
-const STORAGE_KEY = "cc-install-auth";
+const CORRECT_PASSWORD = process.env.NEXT_PUBLIC_INSTALL_PASSWORD!;
+const STORAGE_KEY = process.env.NEXT_PUBLIC_INSTALL_STORAGE_KEY!;
 
 export function PasswordGate({ children }: { children: React.ReactNode }) {
   const [authenticated, setAuthenticated] = useState(false);
