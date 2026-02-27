@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /install
+
+Sitemap: https://cc.g-umoren.net/sitemap.xml
