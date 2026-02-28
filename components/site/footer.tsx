@@ -3,10 +3,10 @@ import { siteConfig } from "@/config/site";
 
 export function Footer() {
   return (
-    <footer className="border-t border-border py-12">
+    <footer className="border-t border-border py-8 sm:py-12">
       <Container>
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-          <div>
+          <div className="text-center md:text-left">
             <span className="font-display text-lg font-bold">
               {siteConfig.name}
             </span>

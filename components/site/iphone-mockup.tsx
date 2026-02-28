@@ -9,15 +9,15 @@ export function IPhoneMockup({ children, className }: IPhoneMockupProps) {
   return (
     <div
       className={cn(
-        "relative w-[280px] rounded-[3rem] border-[3px] border-[#333] bg-[#111] p-3 shadow-2xl",
+        "relative w-[240px] sm:w-[280px] rounded-[2.5rem] sm:rounded-[3rem] border-[3px] border-[#333] bg-[#111] p-2.5 sm:p-3 shadow-2xl",
         className
       )}
     >
       {/* Dynamic island */}
-      <div className="absolute left-1/2 top-4 z-10 h-[25px] w-[90px] -translate-x-1/2 rounded-full bg-black" />
+      <div className="absolute left-1/2 top-3 sm:top-4 z-10 h-[22px] sm:h-[25px] w-[76px] sm:w-[90px] -translate-x-1/2 rounded-full bg-black" />
 
       {/* Screen */}
-      <div className="relative overflow-hidden rounded-[2.3rem] bg-background">
+      <div className="relative overflow-hidden rounded-[2rem] sm:rounded-[2.3rem] bg-background">
         {children || <PlaceholderScreen />}
       </div>
     </div>
@@ -26,7 +26,7 @@ export function IPhoneMockup({ children, className }: IPhoneMockupProps) {
 
 function PlaceholderScreen() {
   return (
-    <div className="flex h-[580px] flex-col items-center justify-center gap-4 bg-gradient-to-b from-card to-background p-8">
+    <div className="flex h-[480px] sm:h-[580px] flex-col items-center justify-center gap-4 bg-gradient-to-b from-card to-background p-6 sm:p-8">
       <div className="h-12 w-12 rounded-2xl bg-primary/20" />
       <div className="h-3 w-28 rounded-full bg-border" />
       <div className="h-2 w-20 rounded-full bg-border/60" />

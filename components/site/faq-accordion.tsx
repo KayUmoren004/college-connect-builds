@@ -9,7 +9,7 @@ export function FAQSection() {
   return (
     <Section id="faq">
       <div className="mx-auto max-w-2xl">
-        <h2 className="mb-10 text-center font-display text-3xl font-bold tracking-tight md:text-4xl">
+        <h2 className="mb-6 sm:mb-10 text-center font-display text-2xl sm:text-3xl font-bold tracking-tight md:text-4xl">
           Frequently asked questions
         </h2>
 
@@ -17,7 +17,7 @@ export function FAQSection() {
           {siteConfig.faq.map((item, i) => (
             <Accordion.Item key={i} className="border-b border-border">
               <Accordion.Header>
-                <Accordion.Trigger className="flex w-full items-center justify-between py-5 text-left text-sm font-medium transition-colors hover:text-primary [&[data-panel-open]>svg]:rotate-180">
+                <Accordion.Trigger className="flex w-full items-center justify-between py-4 sm:py-5 min-h-[44px] text-left text-sm font-medium transition-colors hover:text-primary [&[data-panel-open]>svg]:rotate-180">
                   {item.question}
                   <ChevronDown
                     size={16}
