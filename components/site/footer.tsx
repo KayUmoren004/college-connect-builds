@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="border-t border-border py-12">
       <Container>
         <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-          <div>
+          <div className="text-center md:text-left">
             <span className="font-display text-lg font-bold">
               {siteConfig.name}
             </span>
@@ -15,7 +15,7 @@ export function Footer() {
             </p>
           </div>
 
-          <div className="flex items-center gap-6 text-sm text-muted-foreground">
+          <div className="flex items-center gap-8 text-sm text-muted-foreground">
             <a
               href="#features"
               className="hover:text-foreground transition-colors"

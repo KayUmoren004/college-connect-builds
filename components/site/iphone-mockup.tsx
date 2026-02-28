@@ -9,7 +9,7 @@ export function IPhoneMockup({ children, className }: IPhoneMockupProps) {
   return (
     <div
       className={cn(
-        "relative w-[280px] rounded-[3rem] border-[3px] border-[#333] bg-[#111] p-3 shadow-2xl",
+        "relative w-[240px] rounded-[3rem] border-[3px] border-[#333] bg-[#111] p-3 shadow-2xl sm:w-[280px]",
         className
       )}
     >
@@ -26,7 +26,7 @@ export function IPhoneMockup({ children, className }: IPhoneMockupProps) {
 
 function PlaceholderScreen() {
   return (
-    <div className="flex h-[580px] flex-col items-center justify-center gap-4 bg-gradient-to-b from-card to-background p-8">
+    <div className="flex h-[480px] flex-col items-center justify-center gap-4 bg-gradient-to-b from-card to-background p-8 sm:h-[580px]">
       <div className="h-12 w-12 rounded-2xl bg-primary/20" />
       <div className="h-3 w-28 rounded-full bg-border" />
       <div className="h-2 w-20 rounded-full bg-border/60" />

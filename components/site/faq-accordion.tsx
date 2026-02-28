@@ -9,7 +9,7 @@ export function FAQSection() {
   return (
     <Section id="faq">
       <div className="mx-auto max-w-2xl">
-        <h2 className="mb-10 text-center font-display text-3xl font-bold tracking-tight md:text-4xl">
+        <h2 className="mb-10 text-center font-display text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl">
           Frequently asked questions
         </h2>
 

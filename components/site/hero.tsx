@@ -7,7 +7,7 @@ import { IPhoneMockup } from "./iphone-mockup";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden pb-20 pt-24 md:pb-32 md:pt-36">
+    <section className="relative overflow-hidden pb-12 pt-16 md:pb-20 md:pt-28 lg:pb-32 lg:pt-36">
       {/* Gradient mesh background */}
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute left-1/4 top-0 h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-primary/15 blur-[120px]" />
@@ -30,7 +30,7 @@ export function Hero() {
               </span>
             </div>
 
-            <h1 className="font-display text-5xl font-extrabold leading-[1.1] tracking-tight md:text-6xl lg:text-7xl">
+            <h1 className="font-display text-3xl font-extrabold leading-[1.1] tracking-tight sm:text-4xl md:text-6xl lg:text-7xl">
               {siteConfig.tagline.split(",")[0]},
               <br />
               <span className="text-primary">
@@ -38,20 +38,20 @@ export function Hero() {
               </span>
             </h1>
 
-            <p className="mt-6 max-w-lg text-lg leading-relaxed text-muted-foreground md:text-xl">
+            <p className="mt-6 max-w-lg text-base leading-relaxed text-muted-foreground sm:text-lg md:text-xl">
               {siteConfig.heroDescription}
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
               <button
                 disabled
-                className="rounded-xl bg-primary/20 px-6 py-3 text-sm font-semibold text-primary cursor-not-allowed"
+                className="rounded-xl bg-primary/20 px-6 py-3.5 text-sm font-semibold text-primary cursor-not-allowed"
               >
                 App Store - Coming Soon
               </button>
               <button
                 disabled
-                className="rounded-xl border border-border bg-card px-6 py-3 text-sm font-semibold text-muted-foreground cursor-not-allowed"
+                className="rounded-xl border border-border bg-card px-6 py-3.5 text-sm font-semibold text-muted-foreground cursor-not-allowed"
               >
                 Google Play - Coming Soon
               </button>

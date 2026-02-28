@@ -8,7 +8,7 @@ export function CTASection() {
       </div>
 
       <div className="text-center">
-        <h2 className="font-display text-3xl font-bold tracking-tight md:text-5xl">
+        <h2 className="font-display text-2xl font-bold tracking-tight sm:text-3xl md:text-5xl">
           Ready to Connect?
         </h2>
         <p className="mx-auto mt-4 max-w-md text-lg text-muted-foreground">
@@ -17,13 +17,13 @@ export function CTASection() {
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <button
             disabled
-            className="rounded-xl bg-primary/20 px-8 py-3.5 text-sm font-semibold text-primary cursor-not-allowed"
+            className="rounded-xl bg-primary/20 px-6 py-4 text-sm font-semibold text-primary cursor-not-allowed sm:px-8"
           >
             App Store - Coming Soon
           </button>
           <button
             disabled
-            className="rounded-xl border border-border bg-card px-8 py-3.5 text-sm font-semibold text-muted-foreground cursor-not-allowed"
+            className="rounded-xl border border-border bg-card px-6 py-4 text-sm font-semibold text-muted-foreground cursor-not-allowed sm:px-8"
           >
             Google Play - Coming Soon
           </button>

@@ -5,8 +5,8 @@ import { siteConfig } from "@/config/site";
 export function FeaturesGrid() {
   return (
     <Section id="features">
-      <div className="mb-12 max-w-2xl">
-        <h2 className="font-display text-3xl font-bold tracking-tight md:text-4xl">
+      <div className="mb-8 max-w-2xl md:mb-12">
+        <h2 className="font-display text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl">
           Built for how students actually connect
         </h2>
         <p className="mt-4 text-lg text-muted-foreground">

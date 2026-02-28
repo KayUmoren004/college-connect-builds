@@ -8,7 +8,7 @@ export function ScreenshotsSection() {
   return (
     <Section id="screenshots" className="overflow-hidden">
       <div className="mb-12 text-center">
-        <h2 className="font-display text-3xl font-bold tracking-tight md:text-4xl">
+        <h2 className="font-display text-2xl font-bold tracking-tight sm:text-3xl md:text-4xl">
           Designed for students
         </h2>
         <p className="mt-4 text-lg text-muted-foreground">
