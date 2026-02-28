@@ -12,7 +12,7 @@ export default function HomePage() {
     <div className="min-h-screen overflow-x-clip">
       <NoiseOverlay />
       <Header />
-      <main>
+      <main className="overflow-hidden">
         <Hero />
         <FeaturesGrid />
         <ScreenshotsSection />
