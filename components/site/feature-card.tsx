@@ -27,7 +27,7 @@ export function FeatureCard({ title, description, icon, index }: FeatureCardProp
       transition={{ duration: 0.5, delay: index * 0.1 }}
       className={cn(
         "group rounded-2xl border border-border bg-card p-6",
-        "transition-all duration-300 hover:border-primary/30 hover:bg-card/80"
+        "transition-colors duration-300 hover:border-primary/30 hover:bg-card/80"
       )}
     >
       <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">

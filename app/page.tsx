@@ -9,7 +9,7 @@ import { NoiseOverlay } from "@/components/site/noise-overlay";
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       <NoiseOverlay />
       <Header />
       <main>

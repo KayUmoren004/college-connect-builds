@@ -2,7 +2,7 @@ import { Section } from "./section";
 
 export function CTASection() {
   return (
-    <Section id="cta" className="relative">
+    <Section id="cta" className="relative overflow-hidden">
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute left-1/2 top-1/2 h-[400px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/10 blur-[100px]" />
       </div>
